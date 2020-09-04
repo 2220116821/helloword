@@ -20,7 +20,7 @@ public class servlets extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
     {
-        System.out.println("2222");
+        System.out.println("2222222222222222222222222222222222222222222222222222222222222222222");
         Map<String,Object> map=new HashMap<String, Object>();
         map.put("test","test");
         String json= JSON.toJSONString(map);
